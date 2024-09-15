@@ -51,7 +51,7 @@ git lfs install
 git clone git@hf.co:<MODEL ID> # example: git clone git@hf.co:meta-llama/Meta-Llama-3-8B
 ```
 
-More details on downloading more models can be found [here](https://huggingface.co/docs/hub/en/models-downloading).
+More options on downloading Hugging Face models can be found [here](https://huggingface.co/docs/hub/en/models-downloading).
 
 **Note:** 
 - You may need to set up an SSH key on Huggingface account to download the models. Also, some models such as LLaMA may require to fill out a request form for downloading it.
