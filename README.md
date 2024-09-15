@@ -1,6 +1,10 @@
-# TODO: check if we are allowed to share the dataset.
+# IEEE BigData 2024 Cup: Detection of suicide risk on social media
+This is the code for our solution to [IEEE BigData 2024 Cup: Detection of suicide risk on social media]()
+ https://competitionpolyu.github.io/) Competition.
 
-
+ In this competition, The [dataset](https://www.hkie.org.hk/hkietransactions/upload/2022-12-09/THIE-2022-0031.pdf), consists of 500 labeled posts and 1500 unlabeled posts. To access the dataset, please use the following link to complete the necessary data usage agreement: https://github.com/AlexLee01/Suicide-Triggers-and-Risk-Dataset
+ 
+ After obtaining the dataset, store it in `data/raw_data` folder.
 
 ## 1. Set up environment
 The code was tested with Python 3.10 and PyTorch 2.2
