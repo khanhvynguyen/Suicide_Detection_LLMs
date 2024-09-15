@@ -1,8 +1,8 @@
 # IEEE BigData 2024 Cup: Detection of suicide risk on social media
-Code for our team (The Dual) solution to [IEEE BigData 2024 Cup: Detection of suicide risk on social media Competition.]
- https://competitionpolyu.github.io/).
 
-Given a user post (\ie., text) $T$, our goal is to train a model that takes $T$ as input to classify the suicide risk levels. Our method involves using Large Language Models (LLMs) with few-shot Chain-of-Thought prompting, and classification fine-tuning, as shown in following figure.
+Code for our team (The Dual) solution to [IEEE BigData 2024 Cup: Detection of suicide risk on social media Competition.](https://competitionpolyu.github.io/).
+
+Given a user post (\ie., text) *T*, our goal is to train a model that takes *T* as input to classify the suicide risk levels. Our method involves using Large Language Models (LLMs) with few-shot Chain-of-Thought prompting, and classification fine-tuning, as shown in following figure.
 
 
 ![alt text](https://raw.githubusercontent.com/khanhvynguyen/Suicide_Detection_LLMs/main/assets/overview.png?token=GHSAT0AAAAAACQNCCFPLFBRYPQDKELWAGYSZQLNYNQ)
@@ -17,7 +17,7 @@ Our solution achieved the highest score on overall evaluation, based on *model p
 ## 1. Set up 
 ### 1.1. Dataset
 
-In this competition, The [dataset](https://www.hkie.org.hk/hkietransactions/upload/2022-12-09/THIE-2022-0031.pdf) consists of 500 labeled posts and 1500 unlabeled posts. To access the dataset, please use [this link](https://github.com/AlexLee01/Suicide-Triggers-and-Risk-Dataset) to complete the necessary data usage agreement: 
+In this competition, there are 500 labeled posts and 1500 unlabeled posts in the dataset. To access the dataset, please use [this link](https://github.com/AlexLee01/Suicide-Triggers-and-Risk-Dataset) to complete the necessary data usage agreement. For more details on the dataset, refer to [this paper](https://www.hkie.org.hk/hkietransactions/upload/2022-12-09/THIE-2022-0031.pdf).
 
  After obtaining the dataset, store it in `data/raw_data` folder.
 
