@@ -1,8 +1,8 @@
 # IEEE BigData 2024 Cup: Detection of suicide risk on social media
 
-Code for our team (The Dual) solution to [IEEE BigData 2024 Cup: Detection of suicide risk on social media Competition.](https://competitionpolyu.github.io/).
+Code for our solution (team *The Dual*) to [IEEE BigData 2024 Cup: Detection of suicide risk on social media Competition](https://competitionpolyu.github.io/).
 
-Given a user post (\ie., text) *T*, our goal is to train a model that takes *T* as input to classify the suicide risk levels. Our method involves using Large Language Models (LLMs) with few-shot Chain-of-Thought prompting, and classification fine-tuning, as shown in following figure.
+Given a user post (\ie., text) *T*, our goal is to train a model that takes *T* as input to classify the suicide risk levels. Our method involves using Large Language Models (LLMs) with few-shot Chain-of-Thought prompting, and classification fine-tuning, as shown in figure below.
 
 
 ![alt text](https://raw.githubusercontent.com/khanhvynguyen/Suicide_Detection_LLMs/main/assets/overview.png?token=GHSAT0AAAAAACQNCCFPLFBRYPQDKELWAGYSZQLNYNQ)
@@ -54,7 +54,7 @@ git clone git@hf.co:<MODEL ID> # example: git clone git@hf.co:meta-llama/Meta-Ll
 More details on downloading more models can be found [here](https://huggingface.co/docs/hub/en/models-downloading).
 
 **Note:** 
-- You may need to set up an SSH key on Huggingface account to download the models. Also, some models such as LLaMA may require to fill out a request form for downloading it, which **may take a few hours to 1 day to get approved**. 
+- You may need to set up an SSH key on Huggingface account to download the models. Also, some models such as LLaMA may require to fill out a request form for downloading it.
 - Make sure the checkpoints are stored in the `hf_checkpoints` folder.
 - Please make sure Qwen2-70B-Instruct is fully downloaded. It is a large model (271GB on our disk!) which takes a while to download. If the model is not fully downloaded, the code can still run but the model returns some nonsense characters.
 
@@ -68,13 +68,11 @@ To fine-tune the model, such as `Llama3-8B` on a NVIDIA A6000 with 48GB RAM, run
 python main.py -m -cn main model=llama3_8B optimizer=adamw ++optimizer.params.lr=0.00005 ++optimizer.params.weight_decay=0.1 ++trainer.num_epochs=20 ++trainer.run_name=demo ++trainer.loss_name=macro_double_soft_f1 ++trainer.train_batch_size=1 ++trainer.eval_batch_size=8 ++trainer.accumulate_grad_batches=16 ++model.lora.r=16
 ```
 
-We can find the list of available models in `configs/models/`. 
+You can find the list of available models in `configs/models/`. 
 
 ## 4. Run inference
 ### 4.1. Modify config file
 Modify `configs/inference.yaml`, only need to change `dataset_path` to point to a **CSV file**. The file should contain a column named `post`, which holds the user posts for classification.
-
-
 
 
 
