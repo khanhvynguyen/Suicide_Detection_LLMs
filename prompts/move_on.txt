@@ -1,0 +1,17 @@
+Does the writer say they have moved on from suicidal thoughts, such as happy being alive or having a reason to live now (e.g., live because of parents)?
+Analyze then answer yes or no.
+-----
+
+Input: `One of these days I'll finally do it. I'm not afraid of killing myself anymore I've done it many times and I figured out how to properly hang myself but at the moment there is too much potential interference. I'll break killing myself regardless.I just wish I could die in my sleep instead. Maybe I'll get lucky and increase my chances of corona if I start cutting again.`
+
+Analysis: The writer does not express that they have moved on from suicidal thoughts. Instead, they discuss their intent to eventually follow through with suicide and mention potential methods, including hanging and self-harm.
+Answer: No. 
+-----
+
+Input: `well still alive unfortunately. so last night I attempted once again, this makes it like what my 15th time? still want to attempt again, but I found one thing to live for so I guess ill stay alive. so yeah. probably should be going to a hospital but my family has no health insurance and we wouldnt be able to pay. also im higher risk for COVID so i should be staying away from hospitals anyways.`
+
+Analysis: The writer mentions finding "one thing to live for," indicating they have moved on from their suicidal thoughts.
+Answer: Yes.
+-----
+
+Input: `INPUT_POST_PLACEHOLDER`

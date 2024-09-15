@@ -1,0 +1,46 @@
+defaults:
+  - model: bert
+  - optimizer: adamw
+  - _self_
+
+data:
+  train_path: "data/cv_data/train_{fold_i}.csv"
+  val_path: "data/cv_data/val_{fold_i}.csv"
+  test_path: "data/raw_data/test_set.csv"
+  unlabeled_path: "data/raw_data/posts_without_labels.csv"
+  extra_data_paths: ~
+
+trainer:
+  checkpoint_criteria: best
+  sample_extra_data: ~
+  loss_name: cross_entropy ##  one of {cross_entropy,macro_soft_f1,macro_double_soft_f1,sigmoid_f1}
+  num_epochs: 20
+  log_every_n_steps: 50
+  workers: 3
+  train_batch_size: 16
+  eval_batch_size: 32
+  precision: 16-mixed # {16-mixed, 32}
+  seed: ~
+  save_top_k: 1
+  clean_up: False
+  jobid: ~
+  run_name: ~
+  debug: False
+  sigmoid_clip_ypred: False
+  accumulate_grad_batches: 1
+  class_weights: ~ # None (not used), or a list of 4 in this class order [0 1 2 3], e.g., [0.96899225 0.65789474 0.89285714 3.04878049]
+  preprocess_fn: ~ # None or light_clean_text, or generate_synthetic_text
+  preprocess_fn_prob: ~
+  preprocess_fn_temperature: ~
+  preprocess_fn_model_name: ~ 
+  checkpoint_path: ~ ## to continue to train models on this checkpoint
+  checkpoint_dir: ~ ## used when eval_only=True: to evaluate models (ie., 5 folds) in this directory. If none, use the checkpoint_path
+  replace_cls_head: False
+  eval_only: False
+  num_classes: 4
+  use_cv: True
+  use_wandb: False
+
+
+
+

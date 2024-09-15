@@ -1,0 +1,20 @@
+dataset_path: data/raw_data/test_set.csv  #### TODO: update this to point to the test set file. Should be a csv file with a column named 'post'
+eval_batch_size: 20  ## Take ~39GB GPU memory for infenrence a batch size of 25 for fine-tuned models (ie, Llama, Gemma) 
+checkpoint_criteria: best ## last or best
+output_dir: results
+models: ## ensemble of 5 models
+  llama3_8B_1: ## l_July-08-2024-04-38-23--id_8496325--seed_673583
+    checkpoint_path: checkpoint_thedual/llama3_8B_1  ## LoRA fine-tuned model
+    model_config: configs/model/llama3_8B.yaml
+  llama3_8B_2:
+    checkpoint_path: checkpoint_thedual/llama3_8B_2 ## LoRA fine-tuned model
+    model_config: configs/model/llama3_8B.yaml
+  llama3p1_8B:
+    checkpoint_path: checkpoint_thedual/llama3p1_8B ## LoRA fine-tuned model
+    model_config: configs/model/llama3p1_8B.yaml
+  gemma2_9b_it:
+    checkpoint_path: checkpoint_thedual/gemma2_9b_it ## LoRA fine-tuned model
+    model_config: configs/model/gemma2_9b_it.yaml
+  prompting:
+    checkpoint_path: hf_checkpoints/Qwen2-72B-Instruct ## HF model
+

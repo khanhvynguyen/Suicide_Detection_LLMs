@@ -1,0 +1,56 @@
+Input: `all my life i have fled from my problems all my preschool my elementary and middle school was full of rejection and discrimination i always tried to convince myself that they were wrong but i never really faced them every day i reprimanded those feelings of hatred and cut myself not exploding and hurting anyone my head is a jumble of repressed thoughts and feelings until I finally exploded I had anxiety attacks I started to medicate and try to kill myself and then I realized * this would not be happening if I had not run away * them I agreed with those who insulted me day after day I am a coward for not having faced them'`
+
+Does the writer have explicit suicidal expression of themselves (either in the past or current): Yes, the writer explicitly mentions having tried to kill themselves.
+Does the writer have a plan to commit suicide or engage in self-harming behaviors: Yes, the writer expresses having tried to medicate and attempt suicide.
+Does the writer have historic suicide attempts: Yes, the post mentions a historical suicide attempt.
+Collect answers from the analysis:
+Yes, Yes, Yes
+-----
+
+Input: `Dont even feel like a person anymore. I can't socialize well and that's the main fucking part of being in a society. It's pushing away the most important people in my life like my bf and I can't even bring myself to tell him that I'm suffering. I'm afraid he won't want baggage like me and leave. In which case I think I would go insane. I have so many issues that I don't tell anyone and I've never felt like that's been an option for me. I don't even open up to my best friends about my depression and thoughts of sh. I can't even cut because my bf will see, so I can't even cope in the way that works best. It's getting to be too much.`
+
+Does the writer have explicit suicidal expression of themselves (either in the past or current): No, the writer expresses feelings of depression and mentions thoughts of self-harm but does not explicitly express suicidal intent.
+Does the writer have a plan to commit suicide or engage in self-harming behaviors: No, the writer mentions thoughts of self-harm but does not indicate a plan to carry it out in the near future.
+Does the writer have historic suicide attempts: No, the post does not mention any historical suicide attempts.
+Collect answers from the analysis:
+No, No, No
+-----
+
+Input: `high school counselors suck . i cant stop thinking about how when my old high school found out i was suicidal i got sent to the principals office, and she pulled up my failing grades and was like hmm yea your grades are bad 🤨. like what the hell…it was 4 yrs ago but like…`
+
+Does the writer have explicit suicidal expression of themselves (either in the past or current): Yes, the writer explicitly expresses having been suicidal in the past.
+Does the writer have a plan to commit suicide or engage in self-harming behaviors: No, the writer does not mention any current plans to commit suicide or self-harm.
+Does the writer have historic suicide attempts: No, the post does not mention any historical suicide attempts.
+
+Collect answers from the analysis:
+Yes, No, No
+-----
+
+Input: `"There is nothing holding me here.so now what?. I have been wanting to off myself since 7. I am now 30.\n\nLiving situation is shit. My father, landlady and roommate's ex all say I am a problem and they all gaslight me and are narcissists. I havent been living in that house for 3 weeks in April so far. \n\nPartner/boyfriend/friend whatever he is/was stopped talking to me because of all the drama . Roommate's ex makes fake instagram accounts and messages me very harrassing fucked up things, including a death threat. I cant handle these things well and my stupid ass thought I could get support from my partner . Told him.havent heard from him since. This was Monday.\n\nI am tired of being rejected, unwanted and treated like shit by people who claim they have my best interests in mind .\n\nI really only was holding on to some hope . But that is gone. I have attempted suicide and thought about it so much that the only way peoole who have hurt me will realize i was serious is to follow through .but I get scared when I see it come close. \nI wish i wasnt a coward and prove everyone wrong. Im so tired of this. I do all i can to get better and nobody else bothers to do some self reflection and just blame me"`
+
+Does the writer have explicit suicidal expression of themselves (either in the past or current): Yes, the writer explicitly mentions wanting to off themselves since age 7 and currently feels hopeless.
+Does the writer have a plan to commit suicide or engage in self-harming behaviors: No, the writer does not mention a specific plan or method for committing suicide.
+Does the writer have historic suicide attempts: Yes, the writer mentions having attempted suicide in the past.
+Collect answers from the analysis:
+Yes, No, Yes
+-----
+
+Input: `It's too hard. This is too hard I want to tell them everything not in writing but on the phone so they can hear the sincerity of my voice. My family still thinks and swears my reason to die is only because of the things that have happened with my ex. It's this fucking sickness god it's horrible it's so goddamn horrible and I don't why this is happening to me. Of course I get my ex doesn't care about me and didn't care about all the things she did behind my back. Hell I think that little porn video I found some way she wanted me to find it someday. And I don't blame her I'm pissed off and want to punch the teeth out her mouth but I don't blame her either. To hear that your husband likes to watch little girls in underwear and sexual poses and likes to often dress in drag for god knows maybe why. I understand but she did the things she did before I said this to her. It was actually a few months before she finally told me she was leaving. And I get it even then I get it and maybe not the same way it happened to me but I know this happens to a lot of people both make and female with their SO. But his isn't just my problem my trauma it's this sickness I've been carrying from before I even met her. And I'm tired because I'm a good person I know it's wrong I know that. But I have tried so head to stop it and it just keeps getting worse and to make matters harder my family doesn't listen they just keep naming it on my failed marriage/relationship. I left a note explaining exactly why I decided this is it. And my mom didn't even tell my brother the whole truth. They can't keep hiding it and brushing it off. It's not helping!`
+
+Does the writer have explicit suicidal expression of themselves (either in the past or current): No, while the writer expresses distress and frustration, they do not explicitly state a current suicidal intent.
+Does the writer have a plan to commit suicide or engage in self-harming behaviors: No, the writer does not mention a specific plan or method for committing suicide.
+Does the writer have historic suicide attempts: No, the writer does not mention any past suicide attempts.
+Collect answers from the analysis:
+No, No, No
+-----
+
+Input: `Well because I'm thinking I don't have a chance in my future of moving out of this horrible city and possibly this state. I feel like everyone in this city is against me and that's why I am where I am. People suck. I just want to feel happy and loved. Yes that's all I need right now. Killing myself before I turn 22. I'm doing that why? Sounds stupid but because at least I can tell my dead self that I didn't have to fail longer. I didn't have to be that old 30 year old that never knew how to drive. That old 30 year old that never had a girlfriend. That old 30 year old who didn't have a dad. That old 30 year old that never had a kiss. That loser who is 40 who still gets bullied. That 21 year old who already lost his hair but at least he didn't lose all of it when he was alive. At least he didn't have to have kids see him fail. At least he didn't have to suffer anymore. That 50 year old virgin. That 60 year old man who never owned a house. That 70 year old who doesn't have grandkid(s). Another depressing night. Severe anxiety and depression. Fuck you and you too. No fuck you! No you! And you ocd yes you! And you depression fuck you too! 😂 honestly though it's never ending even with medications. I've tried so many but I should try more to see if they help me anxiety and depression. I was going on a walk and I saw 2 cute girls and I didn't say anything. I hate myself. Now I'm getting a bunch of negative thoughts I think I'm gonna cry. Don't mind me I'm a sensitive bitch. Being myself was never enough. People like me when I'm doing bad and life and when I'm doing good they hate me. Tf is life?. Fuck successful people in the ass. I get off the fuckin social media apps and then that's when I get all the fuckin notifications. They don't care about my fuckin presence. That's mean it wouldn't matter if I was dead. My depression and anger keeps getting worse. I still have a little anxiety too. Every day my mind goes crazy. My depression isn't going away nor is my anxiety. They've been getting so severe that when I am feeling good I feel so bored out of my mind at the end of the day like tonight that I question what's going on around me, in my life and in my head. I'm so stressed it's not funny anymore'`
+
+Does the writer have explicit suicidal expression of themselves (either in the past or current): Yes, the writer explicitly mentions suicidal thoughts: "Killing myself before I turn 22."
+Does the writer have a plan to commit suicide or engage in self-harming behaviors: Yes, the writer has a specific timeframe for their intended suicide, indicating a plan: "before I turn 22."
+Does the writer have historic suicide attempts: No, the writer does not mention any past suicide attempts.
+Collect answers from the analysis:
+Yes, Yes, No
+-----
+
+Input: `INPUT_POST_PLACEHOLDER`

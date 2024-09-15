@@ -1,0 +1,14 @@
+name: llama3p1_8B
+model_name: "hf_checkpoints/Meta-Llama-3.1-8B-Instruct" ## either a path to a HF local checkpoint, or a HF model id (ie., "meta-llama/Meta-Llama-3.1-8B-Instruct")
+layers_to_fine_tune: ~ ## "all", "last"
+preprocess_data: ~
+combine_folds: avg
+model_max_length: 2500
+truncate_position: middle
+lora:
+  r: 16  # the dimension of the low-rank matrices
+  lora_alpha: 8  # scaling factor for LoRA activations vs pre-trained weight activations
+  target_modules: ["q_proj", "k_proj", "v_proj", "o_proj"]
+  lora_dropout: 0.05  # dropout probability of the LoRA layers
+  bias: "none"  # wether to train bias weights, set to 'none' for attention layers
+  task_type: SEQ_CLS
