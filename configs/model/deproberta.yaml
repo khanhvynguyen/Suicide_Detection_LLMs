@@ -1,0 +1,11 @@
+name: deproberta_finetuned
+model_name: "rafalposwiata/deproberta-large-depression"
+layers_to_fine_tune: all ## "all", "last"
+preprocess_data: ~
+combine_folds: avg
+model_max_length: ~ 
+truncate_position: right
+lora: ~  ## not used
+# Tokenizer input max length: 512
+# Tokenizer vocabulary size: 50265
+# model    | RobertaForSequenceClassification | 355 M
