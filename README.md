@@ -19,7 +19,7 @@ Given a user post (i.e., text) *T*, our goal is to train a model that takes *T* 
 
 
 Our solution achieved a score of 75.436 - the highest score on overall evaluation at [IEEE BigData 2024 Cup: Detection of suicide risk on social media Competition](https://competitionpolyu.github.io/), based on
-*model performance* (6-th on the private board with an F1 score of 0.7312), *approach innovatio*n*, and *report quality*.
+*model performance* (6-th on the private board with an F1 score of 0.7312), *approach innovation*, and *report quality*.
 
 
 
