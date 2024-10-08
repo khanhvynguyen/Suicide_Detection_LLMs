@@ -1,6 +1,16 @@
 # IEEE BigData 2024 Cup: Detection of suicide risk on social media
 
-Code for our solution (team *The Dual*) to [IEEE BigData 2024 Cup: Detection of suicide risk on social media Competition](https://competitionpolyu.github.io/).
+A Pytorch implementation for our paper [Leveraging Large Language Models for Suicide Detection on Social Media with Limited Labels](https://arxiv.org/pdf/2410.04501).
+
+
+If you find our work useful, please consider citing:
+```
+@article{nguyen2024leveraging,
+title={Leveraging Large Language Models for Suicide Detection on Social Media with Limited Labels},
+author={Vy Nguyen and Chau Pham},
+journal={arXiv preprint arXiv:2410.04501},
+year={2024}}
+```
 
 Given a user post (i.e., text) *T*, our goal is to train a model that takes *T* as input to classify the suicide risk levels. Our method involves using Large Language Models (LLMs) with few-shot Chain-of-Thought prompting, and classification fine-tuning, as shown in figure below.
 
@@ -8,8 +18,7 @@ Given a user post (i.e., text) *T*, our goal is to train a model that takes *T* 
 ![alt text](https://raw.githubusercontent.com/khanhvynguyen/Suicide_Detection_LLMs/main/assets/overview.png?token=GHSAT0AAAAAACQNCCFPLFBRYPQDKELWAGYSZQLNYNQ)
 
 
-
-Our solution achieved the highest score on overall evaluation, based on *model performance* (6th on the private board with an F1 score of 0.73), *approach innovation*, and *report quality*. 
+Our solution achieved the highest score on overall evaluation at [IEEE BigData 2024 Cup: Detection of suicide risk on social media Competition](https://competitionpolyu.github.io/), based on *model performance* (6th on the private board with an F1 score of 0.73), *approach innovation*, and *report quality*. 
 
 
 
@@ -92,7 +101,7 @@ To run inference, use the following command:
 python inference.py
 ```
 
-It will load each model (listed in `configs/inference.yaml`), predict the labels, and save the results in `results/detailed_outputs/` folder. After that, it will ensemble the results and save the final predictions in **`results/final_ensemble.xlsx`**.
+It will load each model (listed in `configs/inference.yaml`), predict the labels, and save the results in `results/detailed_outputs/` folder. After that, it will ensemble the results and save the final predictions in `results/final_ensemble.xlsx`.
 
 
 Time estimate for inference: ~1.3 hours on 4 NVIDIA L40(s) (Qwen2-72B-Instruct takes about 40 minutes to run, while the other models take about 10 minutes each).

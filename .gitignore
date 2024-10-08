@@ -3,6 +3,7 @@
 
 
 notebooks/
+plots/
 
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
