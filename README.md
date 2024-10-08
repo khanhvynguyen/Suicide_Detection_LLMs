@@ -18,7 +18,9 @@ Given a user post (i.e., text) *T*, our goal is to train a model that takes *T* 
 ![alt text](https://raw.githubusercontent.com/khanhvynguyen/Suicide_Detection_LLMs/main/assets/overview.png?token=GHSAT0AAAAAACQNCCFPLFBRYPQDKELWAGYSZQLNYNQ)
 
 
-Our solution achieved the highest score on overall evaluation at [IEEE BigData 2024 Cup: Detection of suicide risk on social media Competition](https://competitionpolyu.github.io/), based on *model performance* (6th on the private board with an F1 score of 0.73), *approach innovation*, and *report quality*. 
+Our solution achieved a score of 75.436 - the highest score on overall evaluation at [IEEE BigData 2024 Cup: Detection of suicide risk on social media Competition](https://competitionpolyu.github.io/), based on
+*model performance* (6-th on the private board with an F1 score of 0.7312), *approach innovatio*n*, and *report quality*.
+
 
 
 
