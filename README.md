@@ -5,10 +5,10 @@ A Pytorch implementation for our paper [Leveraging Large Language Models for Sui
 
 If you find our work useful, please consider citing:
 ```
-@article{nguyen2024leveraging,
+@InProceedings{nguyenLeveragingLLM2024,
 title={Leveraging Large Language Models for Suicide Detection on Social Media with Limited Labels},
 author={Vy Nguyen and Chau Pham},
-journal={arXiv preprint arXiv:2410.04501},
+booktitle={2024 IEEE International Conference on Big Data (Big Data)},
 year={2024}}
 ```
 
